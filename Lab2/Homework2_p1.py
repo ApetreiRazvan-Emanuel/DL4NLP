@@ -1,6 +1,8 @@
 from transformers import AutoTokenizer
 from collections import defaultdict
 
+print("hi")
+
 corpus = ["The man saw a car in the park", "I saw the man park the car"]
 
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
